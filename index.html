@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whiskey Drop | Taste a new whiskey every month</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <!--Nav-->
+    <!--Nav
     <nav class="navbar navbar-default">
         <div class="container-fluid">
-            <!-- Logo-->
+            
             <div class="navbar-header">
                 <a href="/" class="navbar-brand">
                    Whiskey Drop
@@ -20,44 +22,49 @@
             </div>
 
 
-            <!--Navbar-->
             <ul class="nav navbar-nav">
                 <li class="active"><a href="/">Home</a></li>
-                <li><a herf="">About</a></li>
-                <li class="visible-xs"><a href="">Sign In</a></li>
+                <li><a herf=" ">About</a></li>
+                <li class="visible-xs"><a href=" ">Sign In</a></li>
             </ul>
 
-            <!--Message-->
+            
             <div class="navbar-header navbar-right hidden-xs">
                 <a href="/login" class='btn btn-default navbar-btn'>Sign In</a>
                 <p class="navbar-text">Great Whiskey Delivered To Your Door</p>
             </div>
         </div>
     </nav>
-    <article class="container">
-        <!-- Alert -->
+    <div class="container alert-container"> 
+     -->
+    <!-- Alert 
+
         <div class="row hidden-xs">
             <div class="col-xs-12">
                 <div class="alert alert-warning">
-                    <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6! <a href="">See here for more details</a>
+                    <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6! <a href=" ">See here for more details</a>
                 </div>
             </div>
         </div>
-        </div>
+    </div>
+    -->
+    <div class="container-fluid callout-container">
+        <div class="opaque-overlay">&nbsp;</div>
         <!-- Callout -->
-        <div class="row jumbotron text-center">
+        <div class="row">
             <div class="col-xs-12">
-                <section class="callout">
+                <section class="callout jumbotron text-center">
                     <h1>The finest whiskeys delivered to your doorstep.</h1>
+                    <hr class="block-divider block-divider--orange">
                     <p class="lead">Sign up today to start receiving the world's best whiskeys every month. <s class="hidden-xs">€19.99</s> <span class="visible-xs"><br></span><strong><mark>First one is free!</mark></strong></p>
-                    <p><button class="btn btn-lg btn-success" data-toggle='modal' data-target=#SignUpModal>Sign Up!</button></p>
+                    <p><button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target=#SignUpModal>Sign Up!</button></p>
                     <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
                 </section>
             </div>
         </div>
         <!-- /.callout -->
-
-
+    </div>
+    <div class="container quotes-container">
         <!-- Quotes -->
 
         <section class="quotes">
@@ -96,11 +103,12 @@
                     </div>
                 </div>
             </div>
-            </div>
-        </section>
-        <!-- /.quotes -->
+    </div>
+    </section>
+    <!-- /.quotes -->
+    </div>
 
-
+    <div class="container features-container">
         <!-- Features -->
         <section class="features">
             <div class="row">
@@ -111,70 +119,70 @@
                     <div class="feature">
                         <h3><span class="glyphicon glyphicon-gift hidden-xs"></span>Feature 1 <span class="label label-success">New!</span></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p><a class="btn btn-sm btn-default" href="">Read More</a></p>
+                        <p><a class="btn btn-sm btn-default" href=" ">Read More</a></p>
                     </div>
                 </div>
                 <div class="col-xs-12col-md-6 col-lg-4">
                     <div class="feature">
                         <h3><span class="glyphicon glyphicon-credit-card hidden-xs"></span>Feature 2</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p><a class="btn btn-sm btn-default" href="">Read More</a></p>
+                        <p><a class="btn btn-sm btn-default" href=" ">Read More</a></p>
                     </div>
                 </div>
                 <div class="col-xs-12 hidden-md col-lg-4">
                     <div class="feature">
                         <h3><span class="glyphicon glyphicon-remove-sign hidden-xs"></span>Feature 3</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p><a class="btn btn-sm btn-default" href="">Read More</a></p>
+                        <p><a class="btn btn-sm btn-default" href=" ">Read More</a></p>
                     </div>
                 </div>
             </div>
         </section>
         <!-- /.features -->
-        <!-- Monthly favorites -->
-        <section class="Monthly favorites">
-            <div class="col-xs-12">
-                <div class="row">
-                    <h2 class="text-uppercase">Monthly favorites</h2>
-                    <div class="table">
-                        <h3>Top 5 Whiskys of the month!</h3>
-                        <table class="table table-striped">
-                            <tr>
-                                <th>Name</th>
-                                <th>Origin</th>
-                            </tr>
-                            <tr>
-                                <td>Whisky 1</td>
-                                <td>Country 1</td>
-                            </tr>
-                            <tr>
-                                <td>Whisky 2</td>
-                                <td>Country 2</td>
-                            </tr>
-                            <tr>
-                                <td>Whisky 3</td>
-                                <td>Country 3</td>
-                            </tr>
-                            <tr>
-                                <td>Whisky 4</td>
-                                <td>Country 4</td>
-                            </tr>
-                            <tr>
-                                <td>Whisky 5</td>
-                                <td>Country 5</td>
-                            </tr>
-                        </table>
-                    </div>
+    </div>
+    </div>
+
+    <!-- Monthly favorites -->
+    <section class="Monthly favorites">
+        <div class="col-xs-12">
+            <div class="row">
+                <h2 class="text-uppercase">Monthly favorites</h2>
+                <div class="table">
+                    <h3>Top 5 Whiskys of the month!</h3>
+                    <table class="table table-striped">
+                        <tr>
+                            <th>Name</th>
+                            <th>Origin</th>
+                        </tr>
+                        <tr>
+                            <td>Whisky 1</td>
+                            <td>Country 1</td>
+                        </tr>
+                        <tr>
+                            <td>Whisky 2</td>
+                            <td>Country 2</td>
+                        </tr>
+                        <tr>
+                            <td>Whisky 3</td>
+                            <td>Country 3</td>
+                        </tr>
+                        <tr>
+                            <td>Whisky 4</td>
+                            <td>Country 4</td>
+                        </tr>
+                        <tr>
+                            <td>Whisky 5</td>
+                            <td>Country 5</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
+        </div>
 
-        </section>
-    </article>
+    </section>
 
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
-</button>
+
+
 
     <!-- Modal -->
     <div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -205,8 +213,8 @@
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js " integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>

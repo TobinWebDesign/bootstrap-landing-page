@@ -1,0 +1,104 @@
+body {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Containers */
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+
+    background: url('../images/whiskey-background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    
+    position: relative;
+}
+
+.opaque-overlay {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+.quotes-container {}
+
+.features-container {}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+    
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+    
+}
+
+.jumbotron .lead {
+    color: #a7a7a7;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #dad9d9;
+}
+
+/* Block Devider */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    
+}
+
+.block-divider--orange {
+    background-color: #d27613;
+    
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #d27613;;
+    border-color: #d27613;;
+    
+}
+
+.btn--red:hover {
+    color: white;
+    background-color: #d27613c4;
+    border-color: #d27613c4;
+    text-decoration: none;
+}
